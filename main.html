@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		.navbar {
+  overflow: hidden;
+  background-color: #663300;
+
+}
+
+.navbar a {
+  float: left;
+  font-size: 20px;
+  width: 340px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border: solid;
+  margin: 3px;
+  
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 20px; 
+  width: 340px; 
+  border: solid;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 3px;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: blue;
+
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  width: 380px;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  size: 340px;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  
+
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+	
+.contents{
+	text-align: center;
+}
+.office {
+  position: relative;
+  display: inline-block;
+}
+.footer{
+	background-color: #3FCCFF;
+  color: white;
+
+	</style>
+	<title>All About Information Technology</title>
+</head>
+<p align="center"><img src="title.png" height="150" width="800"></p>
+<body background="try.jpg" style="background-size: cover;background-attachment: fixed;">
+	<div class="navbar">
+  <a href="#home">Home</a>
+  <div class="dropdown">
+    <button class="dropbtn">Subjects 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="system.html">Computer System Servicing</a>
+       <a href="oop.html">OOP</a>
+
+      <a href="#">Web Programming</a>
+      <a href="#">System Analysis and UI Design</a>
+    </div>
+  </div>
+  <a href="#news">Contact Us</a>
+   
+   <a href="#news">About Us</a>
+</div>
+
+</body>
+</html>
